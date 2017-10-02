@@ -3,9 +3,9 @@
   background-color: #000;
   float: left;
   text-align: center;
-  line-height: 4rem;
-  width: 8rem;
-  height: 8rem;
+  line-height: 11rem;
+  width: 11rem;
+  height: 11rem;
   margin: .2rem;
   color: #fff;
   font-size:  5rem;
@@ -17,7 +17,7 @@ button {
   border-radius: 8px;
   width: 150px;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   z-index: 5;
   background-color: red;
   color: #fff;

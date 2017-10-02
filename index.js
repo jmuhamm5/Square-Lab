@@ -12,14 +12,13 @@ function addSquareBox(){
   boxArea.appendChild(squareBox);
 
 
-
-  squareBox.addEventListener('mouseout', function(){
-      squareBox.innerText = "";
+  squareBox.addEventListener('mouseover', function(){
+      squareBox.innerText = squareBox.id;
   });
 
 
-  squareBox.addEventListener('mouseover', function(){
-      squareBox.innerText = squareBox.id;
+  squareBox.addEventListener('mouseout', function(){
+      squareBox.innerText = "";
   });
 
 
