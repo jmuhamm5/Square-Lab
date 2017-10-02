@@ -8,7 +8,7 @@ var boxArea = document.createElement('div');
 function addSquareBox(){
   var squareBox = document.createElement('div');
   squareBox.className = 'square-box';
-  squareBox.id = document.getElementsByClassName('square-box').length;
+  squareBox.id = document.getElementsByClassName('square-box').length + 1;
   boxArea.appendChild(squareBox);
 
 
@@ -30,11 +30,11 @@ function addSquareBox(){
         alert("No boxes to the right");
       }
     } else {
-          if(squareBox.previousSibling){
-            squareBox.previousSibling.remove();
-          } else {
-            alert("No boxes to the left");
-          }
+        if(squareBox.previousSibling){
+          squareBox.previousSibling.remove();
+        } else {
+          alert("No boxes to the left");
+        }
     }
   });
   squareBox.addEventListener('click', function(){
@@ -44,9 +44,7 @@ function addSquareBox(){
 }
 
 document.addEventListener("DOMContentLoaded", function(){
-
     document.body.appendChild(addBtn);
     document.body.appendChild(boxArea);
     addBtn.addEventListener('click', addSquareBox);
-
 });
