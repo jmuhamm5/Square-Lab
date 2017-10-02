@@ -1,0 +1,24 @@
+/* Squares Lab Styles CSS */
+.square-box {
+  background-color: #000;
+  float: left;
+  text-align: center;
+  line-height: 4rem;
+  width: 8rem;
+  height: 8rem;
+  margin: .2rem;
+  color: #fff;
+  font-size:  5rem;
+}
+
+
+button {
+  height: 60px;
+  border-radius: 8px;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  z-index: 5;
+  background-color: red;
+  color: #fff;
+}
